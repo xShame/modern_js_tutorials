@@ -15,12 +15,17 @@ let user = {
 		console.log('the user logged out');
 	},
 	logBlogs(){
+		console.log('this user has written the following blogs:');
 		// for(let i=0; i < this.blogs.length; i++){
 		// 	console.log(this.blogs[i]);
 		// }
-		console.log('this user has written the following blogs:');
-		this.blogs.forEach(blog =>{
-			console.log(blog);
+		
+		// this.blogs.forEach(blog =>{
+		// 	console.log(blog);
+		// })
+		
+		this.blogs.map(blog =>{
+			console.log(blog)
 		})
 	}
 };
