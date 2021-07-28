@@ -13,7 +13,17 @@ let user = {
 	},
 	logout: function(){
 		console.log('the user logged out');
+	},
+	logBlogs(){
+		// for(let i=0; i < this.blogs.length; i++){
+		// 	console.log(this.blogs[i]);
+		// }
+		console.log('this user has written the following blogs:');
+		this.blogs.forEach(blog =>{
+			console.log(blog);
+		})
 	}
 };
-user.login();
-user.logout();
+// user.login();
+// user.logout();
+user.logBlogs();
