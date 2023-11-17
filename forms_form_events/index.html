@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Form Events</title>
+</head>
+<style>
+    body{
+        background: #eee;
+    }
+    form{
+        max-width: 200px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 10px;
+    }
+    input{
+        display: block;
+        margin: 10px auto;
+        padding: 4px;
+    }
+    .success{
+        border: 2px solid limegreen;
+        outline: limegreen;
+    }
+    .error{
+        border: 2px solid crimson;
+        outline: crimson;
+    }
+</style>
+<body>
+    
+    <form action="" class="signup-form">
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="submit" value="submit">
+        <div class="feedback">
+
+        </div>
+    </form>
+    <script src="../forms_form_events/submit.js"></script>
+</body>
+</html>
