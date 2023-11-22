@@ -5,3 +5,4 @@ const greet = (name) => {
 greet("toad");
 greet("luigi");
 greet("link");
+greet("link");
