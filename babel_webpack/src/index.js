@@ -9,4 +9,4 @@ const premUsers = getPremUsers(users);
 console.log(premUsers);
 console.log(users);
 
-console.log("test");
+console.log("test 3");
